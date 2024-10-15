@@ -1,5 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+    --color1:#303660;
+    --color2:#1D213E;
+    --color3:#FFD52C;
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}body{
+    font-family: "Inria Serif", serif;
+    height: 100vh;
+    width: 100vw;
+    color: var(--color2);
+    font-size: 1.3rem;
+}header{
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 20px;
+
+    background-color: var(--color2);
+    color: var(--color3);
+
+}header img{
+    height: 50px;
+}a{
+    color: inherit;
+}.contrateBt{
+    background-color: transparent;
+    color: var(--color3);
+    border: 3px solid var(--color3);
+    border-radius: 5px;
+    height: 40px;
+    width: 160px;
+    font-size: 1.5rem;
+    font-family: inherit;
+    cursor: pointer;
+}.contrateBt:hover{
+    background-color: var(--color3)!important;
+    color: var(--color2)!important;
+    font-weight: bolder;
+}
+section{
+
+    width: 100vw;
+    height: 100vh;
+    padding: 60px 10vw;
+}
+#hero{
+    background-color: var(--color1);
+    padding:80px 20px;
+    color: var(--color3);
+    text-align: center;
+}#hero>.contrateBt, #call .contrateBt{
+    height: 60px;
+    width: 200px;
+    background-color: var(--color2);
+}#desc>p{
+    text-align: justify;
+}h2{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}#beneficios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 50px 0;
+}.beneficio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+    width: 180px;
+    height: 180px;
+    background-color: var(--color2);
+    color: var(--color3);
+    border-radius: 10px;
+}.beneficio i{
+    font-size: 4rem;
+}#call{
+    background-color: var(--color1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}#call>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+
+    background-color: var(--color2);
+    color: var(--color3);
+    width: 60vw;
+    border-radius: 20px;
+    font-size: 4rem;
+    padding: 30px;
+}footer{
+    height: 60vh;
+    width: 100vw;
+    background-color: var(--color2);
+    color: var(--color3);
+
+    display: flex;
+    justify-content: center;
+    padding: 60px 10vw;
+}.vr{
+    width: 3px;
+    background-color: var(--color3);
+    height: 100%;
+    border: none;
+}footer>div{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+}footer>div:first-child{
+    align-items: center;
+}footer i{
+    font-size: 7rem;
+    margin: 10px;
 }
