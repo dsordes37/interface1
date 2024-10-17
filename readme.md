@@ -11,16 +11,3 @@ O objetivos é criar uma memória visual do que deve ter em uma landing page e c
 
 [coluna1](https://dsordes37.github.io/interface1/ex001/)
 
-
-### 002
-
-[coluna2](https://dsordes37.github.io/interface1/ex002)
-
-### 003
-
-[coluna3](https://dsordes37.github.io/interface1/ex003)
-
-
-### 004
-
-[coluna4](https://dsordes37.github.io/interface1/ex004)
